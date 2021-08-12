@@ -7,9 +7,7 @@ public class Ex8 {
 		
 		Scanner leitor = new Scanner (System.in);
 		double media, nota = 0.0;
-		int qtde = 1;
-		int aprovados = 0;
-		int reprovados = 0;
+		int qtde = 1, aprovados = 0, reprovados = 0;
 		
 		System.out.println("Qual a media da turma? ");
 		media = leitor.nextDouble();
@@ -19,7 +17,6 @@ public class Ex8 {
 			nota = leitor.nextDouble();
 			if (nota >= media) {
 				aprovados++;
-				
 			}else {
 				reprovados++;
 			}
